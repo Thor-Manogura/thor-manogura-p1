@@ -1,0 +1,151 @@
+html{
+    background-color:#262626;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 900px;
+}
+body{
+    background-color: #da4357;
+    padding: 2em;
+}
+header{
+    padding: 1em 2em;
+    text-align: center;
+  
+}
+header h1{
+    border: 3px dashed white;
+    padding: 1em;
+    font-family: cursive;
+    background-color:#262626;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+}
+nav{
+    background-color: #262626;
+    padding: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5em;
+    padding: 1.5em;
+}
+nav a:hover{
+    background-color: #da4357;
+    color: rgb(230, 206, 175);
+}
+.current{
+    background-color:#da4357;
+    color: rgb(230, 206, 175);
+}
+main{
+    margin: 0 auto;
+    width: 95%;
+    flex: 1;
+    background-color: rgb(164, 186, 196);
+    padding: 1em;
+}
+main h2,h3{
+    font-family: monospace;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+}
+ul li{
+    padding:10px;
+    margin: 5px;
+    width: 100px;
+    background-color: rgba(245, 245, 220, 0.473);
+    text-align: center;
+}
+ul li:hover{
+    background-color: saddlebrown;
+    cursor: pointer;
+}
+main div{
+    padding: 1em;
+}
+section{
+    font-family: cursive;
+
+    height: 40em;
+}
+.wrapper{
+    width: 900px;
+    margin: 5% auto;
+}
+.singlePrice{
+    background: #262626;
+    width: 33%;
+    float:left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+
+
+}
+.price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+    
+}
+.deals{
+    margin-top: 10%;
+}
+.singlePrice h1{
+    font-size: 18px;    
+    color: #fff;
+    line-height: 4;
+    text-transform: uppercase;
+}
+.price h2{
+    font-size: 38px;
+    color: #fff;
+ 
+}
+.deals h4{
+font-size: 14px;
+font-weight: normal;
+text-align: center;
+color: #fff;
+line-height: 1;
+}
+.singlePrice:hover{
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+.singlePrice:hover .price{
+border-color: #fff;
+}
+.singlePrice a {
+    text-decoration: none;
+    background: #da4357;
+    padding: 10px 60px;
+    display: inline-block;
+    margin:10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.singlePrice a:hover{
+    background: #262626;
+    color: #fff;
+}
+footer{
+    text-align: center;
+    display: block;
+    background-color: rgb(230, 206, 175);
+    padding: 1em;
+    font-size: 0.75rem;
+}

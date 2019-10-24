@@ -1,0 +1,89 @@
+html{
+    background-color:#262626;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 900px;
+}
+body{
+    background-color: #da4357;
+    padding: 2em;
+}
+header{
+    padding: 1em 2em;
+    text-align: center;
+  
+}
+header h1{
+    border: 3px dashed white;
+    padding: 1em;
+    font-family: cursive;
+    background-color:#262626;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+}
+nav{
+    background-color: #262626;
+    padding: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5em;
+    padding: 1.5em;
+}
+nav a:hover{
+    background-color: #da4357;
+    color: rgb(230, 206, 175);
+}
+.current{
+    background-color:#da4357;
+    color: rgb(230, 206, 175);
+}
+main{
+    height: 50em;
+    margin: 0 auto;
+    width: 95%
+}
+
+aside{
+    float: left;
+    width: 15%;
+    background-color:#262626;
+    color: #fff;
+    padding: 1em;
+}
+aside h3{
+    text-align: center;
+}
+
+article h3{
+    text-align: center;
+}
+article img{
+    width: 40%;
+    float: left;
+    padding-right: 1em;
+    padding: 1em;
+}
+
+article{
+    float: right;
+    background-color:#262626;
+    color: #fff;
+    width: 78%;
+    padding: 1em;
+    
+}
+article:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+footer{
+    text-align: center;
+    display: block;
+    /* background-color: #262626; */
+    padding: 1em;
+}

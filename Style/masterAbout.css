@@ -1,0 +1,91 @@
+html{
+    background-color:#262626;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 900px;
+}
+body{
+    background-color: #da4357;
+    padding: 2em;
+}
+header{
+    padding: 1em 2em;
+    text-align: center;
+  
+}
+header h1{
+    border: 3px dashed white;
+    padding: 1em;
+    font-family: cursive;
+    background-color:#262626;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+}
+nav{
+    background-color: #262626;
+    padding: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5em;
+    padding: 1.5em;
+}
+nav a:hover{
+    background-color: #da4357;
+    color: rgb(230, 206, 175);
+}
+.current{
+    background-color:#da4357;
+    color: rgb(230, 206, 175);
+}
+main{
+    background-color: #da4357;
+    width: 95%;
+    margin: 0 auto;
+  
+}
+div{
+    text-align: center;
+}
+article{
+    padding: 1em;
+}
+article:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+figure{
+    float: left;
+    width: 30%;
+    margin: 0;
+}
+figure img{
+    width: 80%;
+    margin: 0 auto;
+    word-wrap: wrap;
+    padding: 2em;
+}
+figcaption{
+    display: block;
+    background-color: white;
+    width: 10em;
+    text-align: center;
+    
+    margin: auto;
+}
+
+
+footer{
+    text-align: center;
+    display: block;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px dashed beige;
+    width: 95%;
+    margin: 0 auto;
+}

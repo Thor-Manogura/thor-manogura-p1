@@ -1,0 +1,84 @@
+html{
+    background-color:#262626;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 900px;
+}
+body{
+    background-color: #da4357;
+    padding: 2em;
+}
+header{
+    padding: 1em 2em;
+    text-align: center;
+  
+}
+header h1{
+    border: 3px dashed white;
+    padding: 1em;
+    font-family: cursive;
+    background-color:#262626;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+}
+nav{
+    background-color: #262626;
+    padding: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5em;
+    padding: 1.5em;
+}
+nav a:hover{
+    background-color: #da4357;
+    color: rgb(230, 206, 175);
+}
+.current{
+    background-color:#da4357;
+    color: rgb(230, 206, 175);
+}
+main{
+    background-color: #da4357;
+    /* background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5))url(image/back.jpg); */
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    padding: 1em;
+}
+div{
+    padding: 2em;
+}
+.form-control{
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid beige;
+    font-size: 18px;
+    padding: 6px;
+}
+
+#form-control{
+    width: 50%;
+}
+.form-control submit{
+    width: 10em;
+}
+
+footer{
+    text-align: center;
+    display: block;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px dashed beige;
+    width: 95%;
+    margin: 0 auto;
+}
